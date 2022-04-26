@@ -11,7 +11,7 @@ import SwiftUI
 struct subscription_management_iosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

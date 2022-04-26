@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E7C2A1F628015366009ADBB2 /* subscription_management_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A1F528015366009ADBB2 /* subscription_management_iosApp.swift */; };
-		E7C2A1F828015366009ADBB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A1F728015366009ADBB2 /* ContentView.swift */; };
 		E7C2A1FA28015367009ADBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C2A1F928015367009ADBB2 /* Assets.xcassets */; };
 		E7C2A1FD28015367009ADBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C2A1FC28015367009ADBB2 /* Preview Assets.xcassets */; };
 		E7C2A20728015367009ADBB2 /* subscription_management_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A20628015367009ADBB2 /* subscription_management_iosTests.swift */; };
 		E7C2A21128015367009ADBB2 /* subscription_management_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A21028015367009ADBB2 /* subscription_management_iosUITests.swift */; };
 		E7C2A21328015367009ADBB2 /* subscription_management_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A21228015367009ADBB2 /* subscription_management_iosUITestsLaunchTests.swift */; };
+		E7F607B0281817B9005A3567 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F607AF281817B9005A3567 /* HomeView.swift */; };
+		E7F607B52818184A005A3567 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F607B42818184A005A3567 /* AnalysisView.swift */; };
+		E7F607B82818188A005A3567 /* AddSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F607B72818188A005A3567 /* AddSubscriptionView.swift */; };
+		E7F607BA28182199005A3567 /* CalendarSyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F607B928182199005A3567 /* CalendarSyncButton.swift */; };
+		E7F607BD281824D7005A3567 /* NavigationBarBackButtonTextHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F607BC281824D7005A3567 /* NavigationBarBackButtonTextHidden.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		E7C2A1F228015366009ADBB2 /* subscription-management-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "subscription-management-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C2A1F528015366009ADBB2 /* subscription_management_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscription_management_iosApp.swift; sourceTree = "<group>"; };
-		E7C2A1F728015366009ADBB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7C2A1F928015367009ADBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C2A1FC28015367009ADBB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7C2A20228015367009ADBB2 /* subscription-management-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "subscription-management-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		E7C2A20C28015367009ADBB2 /* subscription-management-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "subscription-management-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C2A21028015367009ADBB2 /* subscription_management_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscription_management_iosUITests.swift; sourceTree = "<group>"; };
 		E7C2A21228015367009ADBB2 /* subscription_management_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscription_management_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7F607AF281817B9005A3567 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E7F607B42818184A005A3567 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		E7F607B72818188A005A3567 /* AddSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubscriptionView.swift; sourceTree = "<group>"; };
+		E7F607B928182199005A3567 /* CalendarSyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSyncButton.swift; sourceTree = "<group>"; };
+		E7F607BC281824D7005A3567 /* NavigationBarBackButtonTextHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBackButtonTextHidden.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				E7C2A1F528015366009ADBB2 /* subscription_management_iosApp.swift */,
-				E7C2A1F728015366009ADBB2 /* ContentView.swift */,
+				E7F607BB281824C2005A3567 /* Utility */,
+				E7F607B1281817E6005A3567 /* View */,
 				E7C2A1F928015367009ADBB2 /* Assets.xcassets */,
 				E7C2A1FB28015367009ADBB2 /* Preview Content */,
 			);
@@ -125,6 +134,49 @@
 				E7C2A21228015367009ADBB2 /* subscription_management_iosUITestsLaunchTests.swift */,
 			);
 			path = "subscription-management-iosUITests";
+			sourceTree = "<group>";
+		};
+		E7F607B1281817E6005A3567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7F607B2281817F6005A3567 /* Home */,
+				E7F607B32818181A005A3567 /* Analysis */,
+				E7F607B628181875005A3567 /* AddSubscription */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7F607B2281817F6005A3567 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E7F607AF281817B9005A3567 /* HomeView.swift */,
+				E7F607B928182199005A3567 /* CalendarSyncButton.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E7F607B32818181A005A3567 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				E7F607B42818184A005A3567 /* AnalysisView.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		E7F607B628181875005A3567 /* AddSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				E7F607B72818188A005A3567 /* AddSubscriptionView.swift */,
+			);
+			path = AddSubscription;
+			sourceTree = "<group>";
+		};
+		E7F607BB281824C2005A3567 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E7F607BC281824D7005A3567 /* NavigationBarBackButtonTextHidden.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7C2A1F828015366009ADBB2 /* ContentView.swift in Sources */,
+				E7F607B0281817B9005A3567 /* HomeView.swift in Sources */,
+				E7F607B82818188A005A3567 /* AddSubscriptionView.swift in Sources */,
+				E7F607B52818184A005A3567 /* AnalysisView.swift in Sources */,
 				E7C2A1F628015366009ADBB2 /* subscription_management_iosApp.swift in Sources */,
+				E7F607BA28182199005A3567 /* CalendarSyncButton.swift in Sources */,
+				E7F607BD281824D7005A3567 /* NavigationBarBackButtonTextHidden.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

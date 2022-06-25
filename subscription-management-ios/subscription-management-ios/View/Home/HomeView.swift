@@ -19,6 +19,11 @@ struct HomeView: View {
                             // 以下、サブスク一覧を表示
                         }
                     }
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        AnalysisButton()
+                    }
                 }
                 .navigationTitle("登録サブスク一覧")
                 .navigationBarTitleDisplayMode(.inline)

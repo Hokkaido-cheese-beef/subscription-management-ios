@@ -25,5 +25,6 @@ struct CalendarSyncButton: View {
 struct CalendarSyncButton_Previews: PreviewProvider {
     static var previews: some View {
         CalendarSyncButton()
+            .previewLayout(.sizeThatFits)
     }
 }

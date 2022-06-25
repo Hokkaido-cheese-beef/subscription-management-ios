@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E78B7AE328649EFA004A09A8 /* AnalysisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B7AE228649EF9004A09A8 /* AnalysisButton.swift */; };
+		E78B7AE52864A1C8004A09A8 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B7AE42864A1C8004A09A8 /* HomeButton.swift */; };
+		E78B7AE72864A805004A09A8 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B7AE62864A805004A09A8 /* Genre.swift */; };
+		E78B7AE92864ABCB004A09A8 /* SubscriptionGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B7AE82864ABCB004A09A8 /* SubscriptionGenreView.swift */; };
+		E78B7AEB2864B714004A09A8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B7AEA2864B714004A09A8 /* Theme.swift */; };
+		E78B7AED2864BB26004A09A8 /* SubscriptionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B7AEC2864BB26004A09A8 /* SubscriptionCellView.swift */; };
+		E78B7AEF2864C9AC004A09A8 /* GifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B7AEE2864C9AC004A09A8 /* GifImageView.swift */; };
+		E78B7AF12864CD1D004A09A8 /* cycle_arrow.gif in Resources */ = {isa = PBXBuildFile; fileRef = E78B7AF02864CD1D004A09A8 /* cycle_arrow.gif */; };
 		E7C2A1F628015366009ADBB2 /* subscription_management_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A1F528015366009ADBB2 /* subscription_management_iosApp.swift */; };
 		E7C2A1FA28015367009ADBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C2A1F928015367009ADBB2 /* Assets.xcassets */; };
 		E7C2A1FD28015367009ADBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C2A1FC28015367009ADBB2 /* Preview Assets.xcassets */; };
@@ -38,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E78B7AE228649EF9004A09A8 /* AnalysisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisButton.swift; sourceTree = "<group>"; };
+		E78B7AE42864A1C8004A09A8 /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		E78B7AE62864A805004A09A8 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		E78B7AE82864ABCB004A09A8 /* SubscriptionGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionGenreView.swift; sourceTree = "<group>"; };
+		E78B7AEA2864B714004A09A8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E78B7AEC2864BB26004A09A8 /* SubscriptionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCellView.swift; sourceTree = "<group>"; };
+		E78B7AEE2864C9AC004A09A8 /* GifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageView.swift; sourceTree = "<group>"; };
+		E78B7AF02864CD1D004A09A8 /* cycle_arrow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cycle_arrow.gif; sourceTree = "<group>"; };
 		E7C2A1F228015366009ADBB2 /* subscription-management-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "subscription-management-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C2A1F528015366009ADBB2 /* subscription_management_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscription_management_iosApp.swift; sourceTree = "<group>"; };
 		E7C2A1F928015367009ADBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E78B7AF22864CDD7004A09A8 /*  Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E78B7AF02864CD1D004A09A8 /* cycle_arrow.gif */,
+			);
+			path = " Resource";
+			sourceTree = "<group>";
+		};
 		E7C2A1E928015366009ADBB2 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				E7C2A1F528015366009ADBB2 /* subscription_management_iosApp.swift */,
+				E78B7AF22864CDD7004A09A8 /*  Resource */,
 				E7F607BB281824C2005A3567 /* Utility */,
 				E7F607B1281817E6005A3567 /* View */,
 				E7C2A1F928015367009ADBB2 /* Assets.xcassets */,
@@ -151,6 +176,11 @@
 			children = (
 				E7F607AF281817B9005A3567 /* HomeView.swift */,
 				E7F607B928182199005A3567 /* CalendarSyncButton.swift */,
+				E78B7AE228649EF9004A09A8 /* AnalysisButton.swift */,
+				E78B7AE62864A805004A09A8 /* Genre.swift */,
+				E78B7AE82864ABCB004A09A8 /* SubscriptionGenreView.swift */,
+				E78B7AEC2864BB26004A09A8 /* SubscriptionCellView.swift */,
+				E78B7AEE2864C9AC004A09A8 /* GifImageView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -159,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				E7F607B42818184A005A3567 /* AnalysisView.swift */,
+				E78B7AE42864A1C8004A09A8 /* HomeButton.swift */,
 			);
 			path = Analysis;
 			sourceTree = "<group>";
@@ -175,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				E7F607BC281824D7005A3567 /* NavigationBarBackButtonTextHidden.swift */,
+				E78B7AEA2864B714004A09A8 /* Theme.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -283,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78B7AF12864CD1D004A09A8 /* cycle_arrow.gif in Resources */,
 				E7C2A1FD28015367009ADBB2 /* Preview Assets.xcassets in Resources */,
 				E7C2A1FA28015367009ADBB2 /* Assets.xcassets in Resources */,
 			);
@@ -309,12 +342,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78B7AE72864A805004A09A8 /* Genre.swift in Sources */,
+				E78B7AE52864A1C8004A09A8 /* HomeButton.swift in Sources */,
 				E7F607B0281817B9005A3567 /* HomeView.swift in Sources */,
 				E7F607B82818188A005A3567 /* AddSubscriptionView.swift in Sources */,
+				E78B7AEB2864B714004A09A8 /* Theme.swift in Sources */,
+				E78B7AE328649EFA004A09A8 /* AnalysisButton.swift in Sources */,
+				E78B7AE92864ABCB004A09A8 /* SubscriptionGenreView.swift in Sources */,
 				E7F607B52818184A005A3567 /* AnalysisView.swift in Sources */,
 				E7C2A1F628015366009ADBB2 /* subscription_management_iosApp.swift in Sources */,
+				E78B7AED2864BB26004A09A8 /* SubscriptionCellView.swift in Sources */,
 				E7F607BA28182199005A3567 /* CalendarSyncButton.swift in Sources */,
 				E7F607BD281824D7005A3567 /* NavigationBarBackButtonTextHidden.swift in Sources */,
+				E78B7AEF2864C9AC004A09A8 /* GifImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

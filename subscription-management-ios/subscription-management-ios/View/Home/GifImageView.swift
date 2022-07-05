@@ -10,9 +10,11 @@ import WebKit
 
 struct GifImageView: UIViewRepresentable {
     private let name : String
+    @Binding var isGifShow: Bool
     
-    init(_ name: String) {
+    init(_ name: String, isGifShow: Binding<Bool> = .constant(true)) {
         self.name = name
+        self._isGifShow = isGifShow
     }
     
     func makeUIView(context: Context) -> WKWebView {
@@ -29,7 +31,11 @@ struct GifImageView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: WKWebView, context: Context) {
-        uiView.reload()
+        if isGifShow {
+            uiView.reload()
+        } else {
+            
+        }
     }
 }
 

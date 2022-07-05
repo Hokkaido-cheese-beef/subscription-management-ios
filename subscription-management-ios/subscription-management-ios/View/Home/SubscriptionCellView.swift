@@ -5,11 +5,14 @@
 //  Created by 工藤 海斗 on 2022/06/24.
 //
 
+import SwiftyGif
 import SwiftUI
 
 struct SubscriptionCellView: View {
     @Environment(\.theme) private var theme
     private let cellRatio: CGFloat = 60 / 334
+    //@ObservedObject var trigger: Trigger
+    @State var isGifShow = false
     
     var body: some View {
         ZStack(alignment: .leading) {
@@ -24,12 +27,25 @@ struct SubscriptionCellView: View {
                 
                 Spacer()
                 
-                
                 Button {
                     print("詳細")
+                    isGifShow.toggle()
                 } label: {
-                    GifImageView("cycle_arrow")
-                        .frame(width: 40, height: 40)
+                    if isGifShow {
+//                        GifImageView("cycle_arrow", isGifShow: $isGifShow)
+//                            .frame(width: 40, height: 40)
+                        SwiftyGif(isGifShow: $isGifShow)
+                            .frame(width: 40, height: 40)
+                    } else {
+                        Image("cycle_arrow")
+                            .resizable()
+                            .frame(width: 40, height: 40)
+                            .scaledToFit()
+                    }
+//                    GifImageView("cycle_arrow", isGifShow: $isGifShow)
+//                        .frame(width: 40, height: 40)
+//                    SwiftyGif(isGifShow: $isGifShow)
+//                        .frame(width: 40, height: 40)
                 }
                 .padding(.top, theme.margins.spacing_xl + theme.margins.spacing_m)
             }

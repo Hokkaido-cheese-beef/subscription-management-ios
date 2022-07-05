@@ -17,6 +17,9 @@ struct HomeView: View {
                     ScrollView(.vertical) {
                         LazyVStack {
                             // 以下、サブスク一覧を表示
+                            ForEach(0 ..< 5, id: \.self) {_ in
+                                SubscriptionCellView()
+                            }
                         }
                     }
                     Spacer()

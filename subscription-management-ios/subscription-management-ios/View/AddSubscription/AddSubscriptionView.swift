@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct AddSubscriptionView: View {
+    @Environment(\.theme) private var theme
+    @State private var subscriptionListType: SubscriptionListType = .all
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader { geometry in
+            VStack(spacing: .zero) {
+                SubscriptionListSelectView(
+                    type: $subscriptionListType,
+                    screenWidth: geometry.size.width
+                )
+            }
+        }
     }
 }
 

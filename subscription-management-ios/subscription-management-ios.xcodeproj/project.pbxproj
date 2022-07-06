@@ -21,6 +21,8 @@
 		E7C2A20728015367009ADBB2 /* subscription_management_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A20628015367009ADBB2 /* subscription_management_iosTests.swift */; };
 		E7C2A21128015367009ADBB2 /* subscription_management_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A21028015367009ADBB2 /* subscription_management_iosUITests.swift */; };
 		E7C2A21328015367009ADBB2 /* subscription_management_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A21228015367009ADBB2 /* subscription_management_iosUITestsLaunchTests.swift */; };
+		E7CCFB3D2875D39D00DEF78C /* SubscriptionListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CCFB3C2875D39D00DEF78C /* SubscriptionListType.swift */; };
+		E7CCFB3F2875D4A500DEF78C /* SubscriptionListSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CCFB3E2875D4A500DEF78C /* SubscriptionListSelectView.swift */; };
 		E7E44711286799BE00D0F75C /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = E7E44710286799BE00D0F75C /* SwiftyGif */; };
 		E7E447132867A4D100D0F75C /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E447122867A4D100D0F75C /* GifView.swift */; };
 		E7E4471B286CB39B00D0F75C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4471A286CB39B00D0F75C /* UIImage+Extension.swift */; };
@@ -66,6 +68,8 @@
 		E7C2A20C28015367009ADBB2 /* subscription-management-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "subscription-management-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C2A21028015367009ADBB2 /* subscription_management_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscription_management_iosUITests.swift; sourceTree = "<group>"; };
 		E7C2A21228015367009ADBB2 /* subscription_management_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscription_management_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7CCFB3C2875D39D00DEF78C /* SubscriptionListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionListType.swift; sourceTree = "<group>"; };
+		E7CCFB3E2875D4A500DEF78C /* SubscriptionListSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionListSelectView.swift; sourceTree = "<group>"; };
 		E7E447122867A4D100D0F75C /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
 		E7E4471A286CB39B00D0F75C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		E7F607AF281817B9005A3567 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -167,6 +171,14 @@
 			path = "subscription-management-iosUITests";
 			sourceTree = "<group>";
 		};
+		E7CCFB3B2875D36100DEF78C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E7CCFB3C2875D39D00DEF78C /* SubscriptionListType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		E7E44719286CB37A00D0F75C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				E7F607B72818188A005A3567 /* AddSubscriptionView.swift */,
+				E7CCFB3E2875D4A500DEF78C /* SubscriptionListSelectView.swift */,
+				E7CCFB3B2875D36100DEF78C /* Enums */,
 			);
 			path = AddSubscription;
 			sourceTree = "<group>";
@@ -372,7 +386,9 @@
 				E78B7AE328649EFA004A09A8 /* AnalysisButton.swift in Sources */,
 				E78B7AE92864ABCB004A09A8 /* SubscriptionGenreView.swift in Sources */,
 				E7F607B52818184A005A3567 /* AnalysisView.swift in Sources */,
+				E7CCFB3D2875D39D00DEF78C /* SubscriptionListType.swift in Sources */,
 				E7C2A1F628015366009ADBB2 /* subscription_management_iosApp.swift in Sources */,
+				E7CCFB3F2875D4A500DEF78C /* SubscriptionListSelectView.swift in Sources */,
 				E78B7AED2864BB26004A09A8 /* SubscriptionCellView.swift in Sources */,
 				E7F607BA28182199005A3567 /* CalendarSyncButton.swift in Sources */,
 				E7E447132867A4D100D0F75C /* GifView.swift in Sources */,

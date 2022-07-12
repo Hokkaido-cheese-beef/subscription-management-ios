@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var isShowAddSubscriptionView = false
+    
     var body: some View {
         VStack {
             NavigationView {
@@ -42,8 +44,12 @@ struct HomeView: View {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button {
                             print("サブスク追加ボタンが押された")
+                            isShowAddSubscriptionView.toggle()
                         } label: {
                             Image(systemName: "plus.app")
+                        }
+                        .sheet(isPresented: $isShowAddSubscriptionView) {
+                            AddSubscriptionView()
                         }
                     }
                 }

@@ -109,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				E78B7AF02864CD1D004A09A8 /* cycle_arrow.gif */,
+				E7C2A1F928015367009ADBB2 /* Assets.xcassets */,
 			);
 			path = " Resource";
 			sourceTree = "<group>";
@@ -193,7 +194,6 @@
 				E7F607B2281817F6005A3567 /* Home */,
 				E7F607B32818181A005A3567 /* Analysis */,
 				E7F607B628181875005A3567 /* AddSubscription */,
-				E7C2A1F928015367009ADBB2 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";

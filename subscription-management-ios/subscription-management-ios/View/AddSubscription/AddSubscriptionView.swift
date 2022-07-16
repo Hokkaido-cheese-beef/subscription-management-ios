@@ -14,10 +14,32 @@ struct AddSubscriptionView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack(spacing: .zero) {
+                Spacer()
+                
+                HStack(spacing: .zero) {
+                    Spacer()
+                    
+                    Button {
+                        print("検索ボタン")
+                    } label: {
+                        Image(systemName: "magnifyingglass")
+                    }
+                    .foregroundColor(Color.gray)
+                    .padding(.trailing, theme.margins.spacing_l + theme.margins.spacing_xxs)
+                }
+                
                 SubscriptionListSelectView(
                     type: $subscriptionListType,
                     screenWidth: geometry.size.width
                 )
+                
+                // TODO: 追加可能サブスク一覧リストを表示
+                // 別Viewに切り出し
+                List {
+                    ForEach(0 ..< 30, id: \.self) { number in
+                        Text("\(number)")
+                    }
+                }
             }
         }
     }

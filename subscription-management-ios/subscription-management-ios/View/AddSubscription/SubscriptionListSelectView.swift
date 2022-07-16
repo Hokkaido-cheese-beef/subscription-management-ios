@@ -34,6 +34,7 @@ struct SubscriptionListSelectView: View {
                 .offset(x: barOffset(), y: .zero)
                 .animation(.linear(duration: 0.3))
             
+            Divider()
         }
     }
     
